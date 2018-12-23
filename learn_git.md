@@ -42,7 +42,10 @@ $ git reset HEAD readme.txt #如果将修改提交到了暂存区，该命令可
 $ ssh-keygen -t rsa -C "email" #在用户主目录中创建SSH Key。    
 2. 在github中添加SSH Key    
 3. 关联远程库和本地库    
+$ git push -u origin master #把原始分支推送到远程库并且将两者关联(-u参数)，之后可以省略-u。    
 
 # 克隆远程库
 
-1. 
+1. 在github中创建远程库    
+2. 在git中输入命令：git clone git@github.com:users_name/<file>.git    
+  
