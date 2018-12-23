@@ -64,10 +64,15 @@ $ git push -u origin master #把原始分支推送到远程库并且将两者关
   
 # 分支管理
 
-* 每次提交(commit)后，master分支的指针就前移动一步，实质是HEAD指向当前分支。    
+> 每次提交(commit)后，master分支的指针就前移动一步，实质是HEAD指向当前分支。    
 
 $ git branch dev #创建dev分支    
 $ git checkout dev #切换到dev分支    
 这两个命令相当于：$ git checkout -b dev    
 
-$ git branch #会列出所有的分支，当前分支前会有 * 号
+$ git branch #会列出所有的分支，当前分支前会有 * 号    
+
+$ git merge dev #将dev分支合并到当前分支    
+
+$ git branch -d dev #删除dev分支    
+
