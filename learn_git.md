@@ -71,8 +71,8 @@ $ git checkout dev #切换到dev分支
 这两个命令相当于：$ git checkout -b dev    
 
 $ git branch #会列出所有的分支，当前分支前会有 * 号    
-
 $ git merge dev #将dev分支合并到当前分支    
-
 $ git branch -d dev #删除dev分支    
 
+## 禁用Fast forward模式   
+$ git merge --no-ff -m "merge with no-ff" dev #--no-f参数为禁用Fast forward，-m用于描述commit   
