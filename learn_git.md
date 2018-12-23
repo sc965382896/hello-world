@@ -41,4 +41,8 @@ $ git reset HEAD readme.txt #如果将修改提交到了暂存区，该命令可
 1. 创建SSH Key    
 $ ssh-keygen -t rsa -C "email" #在用户主目录中创建SSH Key。    
 2. 在github中添加SSH Key    
-3. 
+3. 关联远程库和本地库    
+
+# 克隆远程库
+
+1. 
