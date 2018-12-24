@@ -107,3 +107,9 @@ $ git pull #抓取远程库中最新的提交并尝试合并
 
 $ git rebase #将本地未push的分支提交历史整理成直线   
 > 只对尚未推送或分享给别人的本地修改执行变基操作清理历史；从不对已推送至别处的提交执行变基操作
+
+## 标签
+
+$ git tag <tagname> #用于新建一个标签，默认是HEAD，也可以指定一个commit id    
+$ git tag -a <tagname> -m "blablabla..." #用于指定标签信息
+$ git tag #查看所有标签
