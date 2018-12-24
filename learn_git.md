@@ -111,5 +111,9 @@ $ git rebase #将本地未push的分支提交历史整理成直线
 ## 标签
 
 $ git tag <tagname> #用于新建一个标签，默认是HEAD，也可以指定一个commit id    
-$ git tag -a <tagname> -m "blablabla..." #用于指定标签信息
-$ git tag #查看所有标签
+$ git tag -a <tagname> -m "blablabla..." #用于指定标签信息    
+$ git tag #查看所有标签   
+$ git tag -d <tagname> #删除标签    
+$ git push origin <tagname> #推送单个标签     
+$ git push origin --tags #推送全部尚未推送至远程的本地标签    
+$ git push origin :refs/tags/<tagname> #删除一个远程标签
